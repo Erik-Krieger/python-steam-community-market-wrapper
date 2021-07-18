@@ -9,6 +9,7 @@ class Item():
     volume: int
     name: str
 
+
     def __init__(self, app_id: int, lowest_price: int, median_price: int, volume: int, name: str):
         self.app_id = app_id
         self.lowest_price = lowest_price
